@@ -49,7 +49,7 @@ section{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(images/IMG_8698\ \(2\).JPEG) no-repeat;
+    background: url(images/IMG_8698\ \(3\).JPEG) no-repeat;
     background-size: cover;
 background-position: center;
 background-attachment: fixed;
@@ -99,6 +99,34 @@ background-attachment: fixed;
     font-size: 1.7em;
     padding-right: 30px;
 }
+.title{
+    display: flex;
+    justify-content: center;
+    color: #285185;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.card{
+    background-color: #ccd9e2;
+    width: 21.25em;
+    box-shadow: 0 5px 28px rgba(1,1,1,15%);
+  border-radius: 10px;
+  padding: 28px;
+  margin: 15px;
+  
+}
+.card:hover{
+    transform:scale(1.1) ;
+
+}
 @media (max-width:1023px) 
 {
     header{
@@ -122,10 +150,15 @@ background-attachment: fixed;
         font-size: 1.6em;
     
     }
-    .conent{
+    .content{
     flex-direction: column;
     align-items: center;
-    
+
     }
+
+    
+
+
+
 }
 
